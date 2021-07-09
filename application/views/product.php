@@ -39,7 +39,7 @@
     <div id="dg">
         <div class="container">
             <div class="row centered">
-                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/camera">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Products/camera">
                     <div class="wrapperDiv">
                         <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <div>Camera IP​</div>
@@ -47,22 +47,22 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/panel">
-                    <div class="wrapperDiv"> prod_redirect" data-url="<?= base_url()?>index.php/Home/board"
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Products/panel">
+                    <div class="wrapperDiv prod_redirect" data-url="<?= base_url()?>index.php/Products/board">
                         <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-2.jpg" alt=""></a>
                         <div>Flat Panel Display IP</div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/sensor">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Products/sensor">
                     <div class="wrapperDiv">
                         <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-3.jpg" alt=""></a>
                         <div>Image Sensor IP</div>
                     </div>
                 </div>
-                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/interface">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Products/interface">
                     <div class="wrapperDiv">
                         <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-3.jpg" alt=""></a>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/ic">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Products/ic">
                     <div class="wrapperDiv">
                         <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-4.jpg" alt=""></a>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/board">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Products/board">
                     <div class="wrapperDiv">
                         <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-5.jpg" alt=""></a>

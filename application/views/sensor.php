@@ -27,12 +27,12 @@
         <div class="container">
             <div class="row" style="margin-bottom: 30px">
 
-                <button type="button" class="btn btn-success prod-btn" style="pointer-events: none">Camera
+                <button type="button" class="btn btn-info prod-btn" data-url="<?= base_url()?>index.php/Products/camera">Camera
                     IP</button>
                 <button type="button" class="btn btn-info prod-btn" data-url="<?= base_url()?>index.php/Products/panel">Flat
                     Panel Display IP</button>
-                <button type="button" class="btn btn-info prod-btn"
-                    data-url="<?= base_url()?>index.php/Products/sensor">Image Sensor IP</button>
+                <button type="button" class="btn btn-success prod-btn"
+                    data-url="<?= base_url()?>index.php/Products/sensor" style="pointer-events: none">Image Sensor IP</button>
                 <button type="button" class="btn btn-info prod-btn"
                     data-url="<?= base_url()?>index.php/Products/interface">High Speed Interface IP</button>
                 <button type="button" class="btn btn-info prod-btn"
@@ -97,8 +97,7 @@
                 </div> -->
                 <div class="accordionbox">
                     <div class="contentbox">
-                        <div class="labeldiv">Camera PHY Interface(Including SER/DES) IP
-                            sub-LVDS/MIPI(D-PHY,M-PHY)/HiSPi/LVDS/SLVS(EC,400,200)</div>
+                        <div class="labeldiv">CMOS Image Sensor IP (Column A/D Convertor, etc)</div>
                         <div class="contentdiv">
                             <table>
                                 <tr>
@@ -123,8 +122,7 @@
 
                 <div class="accordionbox">
                     <div class="contentbox">
-                        <div class="labeldiv">Cameara LINK Interface IP
-                            sub-LVDS/MIPI(CSI2,CSI3)/HiSPi-link/SLVS(EC,400,200)-link</div>
+                        <div class="labeldiv">CCD Image Sensor IP (PGA, CDS, AFE, etc)</div>
                         <div class="contentdiv">
                             <table>
                                 <tr>
@@ -149,8 +147,32 @@
 
                 <div class="accordionbox">
                     <div class="contentbox">
-                        <div class="labeldiv">Cameara CIS(CMOS Image Sensor) Verilog Model IP
-                            sub-LVDS/MIPI(CSI2,CSI3)/HiSPi/SLVS(EC,400,200)-CIS</div>
+                        <div class="labeldiv">Image Processing IP (ISP, etc)</div>
+                        <div class="contentdiv">
+                            <table>
+                                <tr>
+                                    <th>IP Name</th>
+                                    <th>I/F Type</th>
+                                    <th>Cont.</th>
+                                    <th>Max<br>Freq.<br>Mbps<br>(MHz)</th>
+                                    <th>Bit<br>x<br>ch<br>(bit)</th>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>40<br>45</td>
+                                    <td>55<br>65</td>
+                                    <td>90</td>
+                                    <td>110<br>130</td>
+                                    <td>180<br>350</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordionbox">
+                    <div class="contentbox">
+                        <div class="labeldiv">Other CMOS Image Sensor IP</div>
                         <div class="contentdiv">
                             <table>
                                 <tr>

@@ -14,7 +14,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="<?= $home_active_class;?>"><a href="<?= base_url()?>">HOME</a></li>
                 <li class="<?= $about_active_class;?>"><a href="<?= base_url()?>index.php/Home/about">ABOUT US</a></li>
-                <li class="<?= $products_active_class;?>"><a href="<?= base_url()?>index.php/Home/product">PRODUCTS</a>
+                <li class="<?= $products_active_class;?>"><a href="<?= base_url()?>index.php/Products">PRODUCTS</a>
                 </li>
                 <li class="<?= $contact_active_class;?>"><a href="<?= base_url()?>index.php/Home/contact">CONTACT</a>
                 </li>
