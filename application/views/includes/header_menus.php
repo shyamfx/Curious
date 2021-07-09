@@ -14,8 +14,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="<?= $home_active_class;?>"><a href="<?= base_url()?>">HOME</a></li>
                 <li class="<?= $about_active_class;?>"><a href="<?= base_url()?>Home/about">ABOUT US</a></li>
-                <li class="<?= $products_active_class;?>"><a href="product.html">PRODUCTS</a></li>
-                <li class="<?= $contact_active_class;?>"><a href="contact.html">CONTACT</a></li>
+                <li class="<?= $products_active_class;?>"><a href="<?= base_url()?>Home/product">PRODUCTS</a></li>
+                <li class="<?= $contact_active_class;?>"><a href="<?= base_url()?>Home/contact">CONTACT</a></li>
                 <li><a data-toggle="modal" data-target="#myModal" href="#myModal">LOGIN</a></li>
             </ul>
         </div>

@@ -28,4 +28,44 @@ class Home extends CI_Controller {
 
 		$this->load->view('about.php');
 	}
+
+	public function contact(){
+
+		$this->load->view('contact.php');
+	}
+
+	public function product(){
+
+		$this->load->view('product.php');
+	}
+
+	public function camera(){
+
+		$this->load->view('camera.php');
+	}
+
+	public function panel(){
+
+		$this->load->view('panel.php');
+	}
+
+	public function sensor(){
+
+		$this->load->view('sensor.php');
+	}
+
+	public function interface(){
+
+		$this->load->view('interface.php');
+	}
+
+	public function ic(){
+
+		$this->load->view('ic.php');
+	}
+
+	public function board(){
+
+		$this->load->view('board.php');
+	}	
 }

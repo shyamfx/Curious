@@ -69,21 +69,21 @@
                 <div class="col-lg-4" id="prod04">
                     <div class="wrapperDiv">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-3.jpg" alt=""></a>
-                        <div>Camera IP​</div>
+                        <div>High Speed Interface IP</div>
                     </div>
                 </div>
 
                 <div class="col-lg-4" id="prod05">
                     <div class="wrapperDiv">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-4.jpg" alt=""></a>
-                        <div>Flat Panel Display IP</div>
+                        <div>Application Specific IC</div>
                     </div>
                 </div>
 
                 <div class="col-lg-4" id="prod06">
                     <div class="wrapperDiv">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-5.jpg" alt=""></a>
-                        <div>Image Sensor IP</div>
+                        <div>Chip Board</div>
                     </div>
                 </div>
             </div><!-- row -->
