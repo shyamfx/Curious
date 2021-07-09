@@ -39,43 +39,48 @@
     <div id="dg">
         <div class="container">
             <div class="row centered">
-                <div class="col-lg-4" id="prod01">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/camera">
                     <div class="wrapperDiv">
-                        <img src="assets/img/link_icon.png" alt="" class="linkIcon">
+                        <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <div>Camera IP​</div>
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-1.jpg" alt=""></a>
                     </div>
                 </div>
 
-                <div class="col-lg-4" id="prod02">
-                    <div class="wrapperDiv">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/panel">
+                    <div class="wrapperDiv"> prod_redirect" data-url="<?= base_url()?>index.php/Home/board"
+                        <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-2.jpg" alt=""></a>
                         <div>Flat Panel Display IP</div>
                     </div>
                 </div>
 
-                <div class="col-lg-4" id="prod03">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/sensor">
                     <div class="wrapperDiv">
+                        <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-3.jpg" alt=""></a>
                         <div>Image Sensor IP</div>
                     </div>
                 </div>
-                <div class="col-lg-4" id="prod04">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/interface">
                     <div class="wrapperDiv">
+                        <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-3.jpg" alt=""></a>
                         <div>High Speed Interface IP</div>
                     </div>
                 </div>
 
-                <div class="col-lg-4" id="prod05">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/ic">
                     <div class="wrapperDiv">
+                        <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-4.jpg" alt=""></a>
                         <div>Application Specific IC</div>
                     </div>
                 </div>
 
-                <div class="col-lg-4" id="prod06">
+                <div class="col-lg-4 prod_redirect" data-url="<?= base_url()?>index.php/Home/board">
                     <div class="wrapperDiv">
+                        <img src="<?= base_url()?>assets/img/link_icon.png" alt="" class="linkIcon">
                         <a href="#"><img src="<?= base_url()?>assets/img/prod-5.jpg" alt=""></a>
                         <div>Chip Board</div>
                     </div>
