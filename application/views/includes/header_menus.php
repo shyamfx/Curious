@@ -15,7 +15,7 @@
                 <li class="<?= $home_active_class;?>"><a href="<?= base_url()?>">HOME</a></li>
                 <li class="<?= $about_active_class;?>"><a href="<?= base_url()?>Home/about">ABOUT US</a></li>
                 <li class="<?= $products_active_class;?>"><a href="product.html">PRODUCTS</a></li>
-                <li class="<?= $contact_active_class;?>"><a href="contact.html">WORKS</a></li>
+                <li class="<?= $contact_active_class;?>"><a href="contact.html">CONTACT</a></li>
                 <li><a data-toggle="modal" data-target="#myModal" href="#myModal">LOGIN</a></li>
             </ul>
         </div>
