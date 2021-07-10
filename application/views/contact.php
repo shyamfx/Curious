@@ -27,31 +27,38 @@
         <div class="container">
             <div class="row" style="text-align: left">
                 <h2 style="margin-bottom: 40px;">CONTACT US</h2>
-                <h3 style="margin-bottom: 60px; font-weight: 300;">Please use it for the request of the inquiry that our
+                <h3 style="margin-bottom: 20px; font-weight: 300;">Please use it for the request of the inquiry that our
                     product concerns and material etc.
                 </h3>
                 <div>
                     CONTACT FORM
-
+                    <br><br>
                     <form method="post" action="../cgi-bin/Webform/webform_e.cgi">
                         <input type="hidden" name="location" value="http://www.curious-jp.com/en/thanks.html">
                         <!--input type="hidden" name="to_mail" value="curious.info&#64;curious-jp.com" /-->
                         <input type="hidden" name="subject" value="To CURIOUS Question">
-                        <dl>
+                        <dl style="margin-left: 20px">
                             <dt><span class="Black_small">Subject</span></dt>
-                            <dd><input maxlength="100" size="60" name="subject" type="text" value=""></dd>
+                            <dd><input maxlength="100" size="60" name="subject" type="text" value=""
+                                    style="padding-left: 10px; width: 400px;"></dd><br>
                             <dt><span class="Black_small">Company Name</span></dt>
-                            <dd><input maxlength="100" size="55" name="your company" type="text" value=""></dd>
+                            <dd><input maxlength="100" size="55" name="your company" type="text" value=""
+                                    style="padding-left: 10px; width: 400px;"></dd><br>
                             <dt><span class="Black_small">Your Name</span></dt>
-                            <dd><input maxlength="50" size="40" name="your name" type="text" value=""></dd>
+                            <dd><input maxlength="50" size="40" name="your name" type="text" value=""
+                                    style="padding-left: 10px; width: 400px;"></dd><br>
                             <dt><span class="Black_small">Your e-mail Address</span></dt>
-                            <dd><input maxlength="50" size="50" name="email" type="text" value=""></dd>
+                            <dd><input maxlength="50" size="50" name="email" type="text" value=""
+                                    style="padding-left: 10px; width: 400px;"></dd><br>
                             <dt><span class="Black_small">Your Homepage</span></dt>
-                            <dd><input maxlength="50" size="50" name="homepage" type="text" value="http://"></dd>
+                            <dd><input maxlength="50" size="50" name="homepage" type="text" value="http://"
+                                    style="padding-left: 10px; width: 400px;"></dd>
+                            <br><br>
                             <dt><span class="Black_small">Question</span></dt>
                             <dd><textarea name="question" rows="10" cols="45"></textarea></dd>
                         </dl>
-                        <input type="submit" value="　Send  ">&nbsp;<input type="reset" value="  Clear  ">
+                        <input type="submit" value="  Send  " style="margin-left: 20px">&nbsp;<input type="reset"
+                            value="  Clear  ">
                     </form>
 
                 </div>
