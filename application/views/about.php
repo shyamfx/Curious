@@ -27,8 +27,20 @@
         <div class="container">
             <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h4>LEARN MORE ABOUT US</h4>
-                    <p>WE ARE COOL PEOPLE</p>
+                    <h2>CURIOUS Corporation
+                    </h2>
+                    <p>Our Company was established in Junly,2001. We develop Analog/Mixed Signal (Analog/Digital
+                        Mixture) IC( Integrate Circuit). In the future, all information processing machines will be
+                        presumed to be connected over a form of network or another. As such demands for these machines
+                        are expected to increase considerably in the ever-expanding world of communication with this
+                        increase demands for the LCD Driver will also undoubtedly rise. With the present lack of analog
+                        design capacity in the world due to a shortage of analog engineers. Our main purpose is to work
+                        hard to provide our customers with the best expert advice and services possible.
+                        <br /><br>
+                        <a href="http://www.curious-jp.com/en/pdf/CURIOUS_Corporation.pdf" target="_blank"><img
+                                src="<?= base_url()?>assets/img/pdf.svg" width="20" height="20" />Company
+                            Introduction</a>
+                    </p>
                 </div>
             </div><!-- row -->
         </div><!-- container -->
@@ -37,37 +49,67 @@
 
     <div class="container w">
         <div class="row centered">
+            <h3>Office Address</h3>
             <br><br>
             <div class="col-lg-3">
-                <img class="img-circle" src="<?= base_url()?>assets/img/pic.jpg" width="110" height="110" alt="">
-                <h4>Frank Lampard</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form.</p>
-                <p><a href="#">@Frank_BlackTie</a></p>
+                <div class="offices">Tokyo Office</div>
+                <div class="officedetail">
+                    <br>
+                    Zip 101-0041<br>
+                    Metlife Kanda Sudacho BLD 8F<br>1-chome-10-2, Kanda Sudacho, Chiyoda City, Tokyo-to JAPAN<br>
+                    Phone +81-3-5207-2785<br><br>
+                    <a href="http://www.curious-jp.com/en/map1.html" target="_blank"><img
+                            src="<?= base_url()?>assets/img/map.svg" alt="Google Map" width="46" height="20" hspace="4"
+                            align="middle"> Location Map</a><br><br>
+                </div>
             </div><!-- col-lg-3 -->
 
             <div class="col-lg-3">
-                <img class="img-circle" src="<?= base_url()?>assets/img/pic2.jpg" width="110" height="110" alt="">
-                <h4>David Wright</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form.</p>
-                <p><a href="#">@David_BlackTie</a></p>
+                <div class="offices">Sendai Design Center</div>
+                <div class="officedetail"><br>
+                    Zip 980-0802<br>
+                    Station Plaza BLD 805<br>13-18 Futsukamachi, Aoba-ku, Sendai, Miyagi JAPAN<br>
+                    Phone +81-22-302-6236<br><br>
+                    <a href="http://www.curious-jp.com/en/map2.html" target="_blank"><img
+                            src="<?= base_url()?>assets/img/map.svg" alt="Google Map" width="46" height="20" hspace="4"
+                            align="middle"> Location Map</a><br><br>
+                </div>
             </div><!-- col-lg-3 -->
 
             <div class="col-lg-3">
-                <img class="img-circle" src="<?= base_url()?>assets/img/pic3.jpg" width="110" height="110" alt="">
-                <h4>Mark Milestone</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form.</p>
-                <p><a href="#">@Mark_BlackTie</a></p>
+                <div class="offices">Sendai R&amp;D Center</div>
+                <div class="officedetail"><br>
+                    Zip 981-3133<br>
+                    Izumi Central BLD 404<br>3-chome-10-3, Izimichuo, Izumi-ku, Sendai, Miyagi JAPAN<br>
+                    Phone +81-22-346-8435<br><br>
+                    <a href="http://www.curious-jp.com/en/map3.html" target="_blank"><img
+                            src="<?= base_url()?>assets/img/map.svg" alt="Google Map" width="46" height="20" hspace="4"
+                            align="middle"> Location Map</a><br><br>
+                </div>
             </div><!-- col-lg-3 -->
 
             <div class="col-lg-3">
-                <img class="img-circle" src="<?= base_url()?>assets/img/pic4.jpg" width="110" height="110" alt="">
-                <h4>Tania Tissen</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form.</p>
-                <p><a href="#">@Tania_BlackTie</a></p>
+                <div class="offices">Iwate Head Office</div>
+                <div class="officedetail"><br>
+                    Zip 021-0003<br>
+                    Pastrale 3-102<br>4-3, Higashigodai, Ichinoseki, Iwate JAPAN<br>
+                    Phone +81-191-32-5257<br><br>
+                    <a href="http://www.curious-jp.com/en/map4.html" target="_blank"><img
+                            src="<?= base_url()?>assets/img/map.svg" alt="Google Map" width="46" height="20" hspace="4"
+                            align="middle"> Location Map</a><br><br>
+                </div>
+            </div><!-- col-lg-3 -->
+
+            <div class="col-lg-3">
+                <div class="offices">Singapore Office</div>
+                <div class="officedetail"><br>
+                    Zip 347722<br>
+                    12 Tannery Road #08-07 HB Centre 1 Singapore<br>
+                    Phone +65-6681-5756<br><br>
+                    <a href="http://www.curious-jp.com/en/map6.html" target="_blank"><img
+                            src="<?= base_url()?>assets/img/map.svg" alt="Google Map" width="46" height="20" hspace="4"
+                            align="middle"> Location Map</a><br><br>
+                </div>
             </div><!-- col-lg-3 -->
 
         </div><!-- row -->
@@ -80,93 +122,22 @@
     <div id="dg">
         <div class="container">
             <div class="row centered">
-                <h4>OUR SKILLS</h4>
+                <h4>OFFICERS & OTHERS</h4>
                 <br>
 
-                <!-- First Chart -->
-                <div class="col-lg-3">
-                    <canvas id="canvas" height="130" width="130"></canvas>
-                    <br>
-                    <script>
-                    var doughnutData = [{
-                            value: 70,
-                            color: "#3498db"
-                        },
-                        {
-                            value: 30,
-                            color: "#ecf0f1"
-                        }
-                    ];
-                    // var myDoughnut = new Chart(document.getElementById("canvas").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                    <p><b>Design & Brand</b></p>
-                    <p><small>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</small></p>
-                </div><!-- /col-lg-3 -->
+                <div style="text-align: left; max-width: 400px; margin-left: auto; margin-right: auto">
+                    <div class="officers"><span>Jan-Jue Chang</span> Chairman</div>
+                    <div class="officers"><span>Takayuki Onodera</span> President &amp; CEO</div>
+                    <div class="officers"><span>Toru Iijima</span> Director</div>
+                    <div class="officers"><span>Ray Chen</span> Director (USA)</div>
+                    <div class="officers"><span>Joe Lin</span> Director (TAIWAN)</div>
+                    <div class="officers"><span>Eric Chun</span>g Auditor (TAIWAN)</div>
+                    <div class="officers"><span>Jun Hasegawa</span> CTO</div>
+                    <div class="officers"><span>Takefumi Yoshikawa</span> Technical advisor<br>Professor, Toyama
+                        Preectual
+                        University </div>
 
-                <!-- Second Chart -->
-                <div class="col-lg-3">
-                    <canvas id="canvas2" height="130" width="130"></canvas>
-                    <br>
-                    <script>
-                    var doughnutData = [{
-                            value: 90,
-                            color: "#3498db"
-                        },
-                        {
-                            value: 10,
-                            color: "#ecf0f1"
-                        }
-                    ];
-                    // var myDoughnut = new Chart(document.getElementById("canvas2").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                    <p><b>Web Development</b></p>
-                    <p><small>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</small></p>
-                </div><!-- /col-lg-3 -->
-
-                <!-- Third Chart -->
-                <div class="col-lg-3">
-                    <canvas id="canvas3" height="130" width="130"></canvas>
-                    <br>
-                    <script>
-                    var doughnutData = [{
-                            value: 50,
-                            color: "#3498db"
-                        },
-                        {
-                            value: 50,
-                            color: "#ecf0f1"
-                        }
-                    ];
-                    // var myDoughnut = new Chart(document.getElementById("canvas3").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                    <p><b>Seo Services</b></p>
-                    <p><small>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</small></p>
-                </div><!-- /col-lg-3 -->
-
-                <!-- Fourth Chart -->
-                <div class="col-lg-3">
-                    <canvas id="canvas4" height="130" width="130"></canvas>
-                    <br>
-                    <script>
-                    var doughnutData = [{
-                            value: 80,
-                            color: "#3498db"
-                        },
-                        {
-                            value: 20,
-                            color: "#ecf0f1"
-                        }
-                    ];
-                    // var myDoughnut = new Chart(document.getElementById("canvas4").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                    <p><b>Printing</b></p>
-                    <p><small>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form.</small></p>
-                </div><!-- /col-lg-3 -->
-
+                </div>
 
             </div><!-- row -->
         </div><!-- container -->
@@ -177,13 +148,111 @@
 
     <div id="r">
         <div class="container">
-            <div class="row centered">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h4>WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.</h4>
-                    <p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is
-                        a designer in their own right. And there are a few principles we believe—and we believe everyone
-                        should believe—about our design craft. These truths drive us, motivate us, and ultimately help
-                        us redefine the power of design.</p>
+            <div class="row" style="color: white">
+                <h4 style="text-align: center; margin-bottom: 40px">Our Customer & Partner Company</h4>
+
+                <div class="col-lg-4">
+                    Panasonic Corporation(Japan)<br>
+                    Panasonic Semiconductor Solutions Co., Ltd.(Japan)<br>
+                    Nuvoton Technology(Japan)<br>
+                    SONY Coporation(Japan)<br>
+                    SONY Semiconductor Solutions Coporation(Japan)<br>
+                    Nikon Corporation(Japan)<br>
+                    Denso Corporation(Japan)<br>
+                    Renesas Electronics Corporation(Japan)<br>
+                    SHARP Coporation(Japan)<br>
+                    NEC Coporation(Japan)<br>
+                    NEC Space Technologies(Japan)<br>
+                    FUJIFILM Co.,Ltd.(Japan)<br>
+                    Infineon Technologies(Germany) Infineon<br>
+                    Cypress Semiconductor Corporation(USA)<br>
+                    Cypress Innovates(Japan)<br>
+                    Brillnics Japan Inc.(Japan) Brillnics Japan<br>
+                    Brookman Technology Inc.(Japan)<br>
+                    Rosnes Corporation(Japan)<br>
+                    Imagica Technologies Inc.(Canada) Imagica<br>
+                    Metria Sensors Inc.(Canada) Metrio<br>
+                    Huawei Technologies Co., Ltd.(China) HUAWEI<br>
+                    HiSilicon Technologies Co., Ltd.(China) HiSilicon<br>
+                    Allwinner Technologies Co., Ltd.(China) Allwinner<br>
+                    Vimicro Corporation(China) Vimicro<br>
+                    Viewtel Corporation(USA) Viewtel<br>
+                    Orbbec 3D Technology International, Inc.(USA) Orbbec<br>
+                    Gpixel Inc.(China) Gpixel<br>
+                    Shanghai CelePixel Co. Ltd(China) CelePixel<br>
+                    Brillnics Inc.(Tawiwan) Brillnics<br>
+                    AutoChips Technology Inc.(China) AutoChips<br>
+                    Hangzhou Hikvision Digital Technology Co., Ltd.(China) HIKvision<br>
+                    HOLTEK Semiconductor Inc.(Taiwan) Holtek<br>
+                    Winbond Electronics Corporation(Taiwan) Winbond<br>
+                </div>
+                <div class="col-lg-4">
+                    Foxconn Technology Group(Taiwan) Foxconn<br>
+                    Hon Hai Precision Industry(Taiwan) HonHai<br>
+                    MediaTek(Taiwan) MTK<br>
+                    Alchip Technologies, Ltd.(Taiwan) Alchip<br>
+                    Faraday Technology(Taiwan) Faraday<br>
+                    Faraday Technology Japan(Japan)<br>
+                    Global Unichip(Taiwan) GUC<br>
+                    VeriSilicon Inc.(USA) VeriSilicon<br>
+                    Progate Group Corporation(Taiwan) PGC<br>
+                    Brite Semiconductor Corporation(China) Brite<br>
+                    TOSHIBA Corporation(Japan)<br>
+                    MegaChips Corporation(Japan)<br>
+                    Socinext Corporation(Japan)<br>
+                    M31 Technology (Taiwan) M31<br>
+                    ARM Ltd. (UK) ARM<br>
+                    Toshiba Information Systems Corporation(Japan)<br>
+                    Sanei Hytechs Co.,Ltd.(Japan)<br>
+                    Toppan Printing Co.,Ltd.(Japan)<br>
+                    Toppan Technical Design Center Co., Ltd.(Japan)<br>
+                    Shanghai Bwave Technology Co.,Ltd.(China)Bwave<br>
+                    Savarti Ltd. (USA)<br>
+                    HOYA Corporaion(Japan)<br>
+                    Japan Systemware(Japan) NSW<br>
+                    Uozu Device Engineering Coporation(Japan)<br>
+                    Linear Cell Design(Japan)<br>
+                    Analogist(Japan)<br>
+                    Terapixel Technologies Corporaion(Japan)<br>
+                    Taiwan Semiconductor Manufacturing Company(Taiwan) TSMC<br>
+                    TSMC Japan Limited(Japan) TSMCJ<br>
+                    United Microelectronics Company(Taiwan) UMC<br>
+                    Samsung Electronics Co., Ltd.(South Korea) Samsung<br>
+                    Samsung Japan Corporation(Japan)<br>
+                    UMC Group Japan(Japan) UMCGJ<br>
+                </div>
+                <div class="col-lg-4">
+                    Towerjazz Panasonic Simiconductor Corporation(Japan) TPSCo<br>
+                    Globalfoundries(USA) GF<br>
+                    Semiconductor Manufacturing International Corporation(China) SMIC<br>
+                    FUJIFILM Degital Techno Corpoation(Japan)<br>
+                    HITACHI ULSI Systems Co.,Ltd.(Japan)<br>
+                    HITACHI Solutions Technology Co.,Ltd.(Japan)<br>
+                    OKI Engineering Co.,Ltd.(Japan)<br>
+                    ASE Japan Co.,Ltd.(Japan)<br>
+                    MITSUI High-tech, Inc.(Japan)<br>
+                    OOI Electric Co.,Ltd.(Japan)<br>
+                    TAITEC Corporation(Japan)<br>
+                    NEC Tohoku, Ltd.(Japan)<br>
+                    Denken, Co.,Ltd.(Japan)<br>
+                    ACORN Logic Technology Corporation(Japan)<br>
+                    Hong Xiang Technology Co.,Ltd.(Taiwan) HXT<br>
+                    Altera Japan Corporation(Japan) Altera<br>
+                    KANEMATSU Corporation(Japan) (Agant) [IC]<br>
+                    Transilicon Corporation(China) (Agant) [IC & IP]Transilicon<br>
+                    Shanghai Jiatao Industrial Co.,LTD(China) (Agant) [IP] Jiatao<br>
+                    Zuiki Inc.(China/Japan) (Agant) [IP] Zuiki<br>
+                    Triton Corporation(Taiwan/Japan) (Agant) [IP] Triton<br>
+                    Maple Technology Inc.(South Korea) (Agant) [IC]<br>
+                    UNIPIX Corporation(South Korea) (Agent) [IP]<br>
+                    Marubun Corporation(Japan)<br>
+                    Toyama Prefectural University(Japan)<br>
+                    Bridge Roots Capital(Taiwan)<br>
+                    Element III Venture Capital(Taiwan)<br>
+                    Deloite Taiwan(Taiwan)<br>
+                    TMI Associates Services Co., Ltd.(Japan)<br>
+                    CURIOUS Holding Co., Ltd.(Taiwan)<br>
+                    CURIOUS Tek (Singapore) CTK<br>
                 </div>
             </div><!-- row -->
         </div><!-- container -->

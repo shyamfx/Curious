@@ -110,19 +110,16 @@
     <!-- FEATURE SECTION -->
     <div class="container wb">
         <div class="row centered">
-            <br><br>
+            <br>
             <div class="col-lg-8 col-lg-offset-2">
                 <h2 sytle="margin-bottom: 40px; ">THE BEST EXPERIENCE EVER</h2><br /><br />
-                <!-- <p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes
-					love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating
-					a whole story the audience embraces. That’s when the brand can truly flex its muscles.</p>
-				<p><br /><br /></p> -->
                 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/_VMYPLXnd7E"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
+                <br><br><br><br>
             </div>
-            <div class="col-lg-2"></div>
+
 
         </div><!-- row -->
     </div><!-- container -->
@@ -132,38 +129,42 @@
         <div class="container">
             <div class="row centered">
                 <h2>OUR CUSTOMER & PARTNET COMPANY</h2>
-                <div class="col-lg-2 col-lg-offset-1">
-                    <img src="<?= base_url()?>assets/img/c01.gif" alt="">
+                <div class="col-lg-2">
+                    <img src="<?= base_url()?>assets/img/partner/panasonic.jpg" alt="">
                 </div>
                 <div class="col-lg-2">
-                    <img src="<?= base_url()?>assets/img/c02.gif" alt="">
+                    <img src="<?= base_url()?>assets/img/partner/Sony.jpg" alt="">
                 </div>
                 <div class="col-lg-2">
-                    <img src="<?= base_url()?>assets/img/c03.gif" alt="">
+                    <img src="<?= base_url()?>assets/img/partner/Nikon.jpg" alt="">
                 </div>
                 <div class="col-lg-2">
-                    <img src="<?= base_url()?>assets/img/c04.gif" alt="">
+                    <img src="<?= base_url()?>assets/img/partner/sharp.jpg" alt="">
                 </div>
                 <div class="col-lg-2">
-                    <img src="<?= base_url()?>assets/img/c05.gif" alt="">
+                    <img src="<?= base_url()?>assets/img/partner/NEC.jpg" alt="">
                 </div>
+                <div class="col-lg-2">
+                    <img src="<?= base_url()?>assets/img/partner/Fuji.jpg" alt="">
+                </div><br>
             </div><!-- row -->
+            <div class="row centered" style="hieght: 40px; line-height: 40px;"><a
+                    href="<?= base_url()?>index.php/Home/about#r">
+                    <h4>And more...</h4>
+                </a></div>
         </div><!-- container -->
     </div><!-- dg -->
 
-
-    <div id="r">
+    <!-- FOOTER -->
+    <div id="f">
         <div class="container">
             <div class="row centered">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h4>WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.</h4>
-                    <p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is
-                        a designer in their own right. And there are a few principles we believe—and we believe everyone
-                        should believe—about our design craft. These truths drive us, motivate us, and ultimately help
-                        us redefine the power of design.</p>
-                </div>
+                <a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a
+                    href="#"><i class="fa fa-dribbble"></i></a>
+
             </div><!-- row -->
         </div><!-- container -->
+
     </div>
     <! -- r wrap -->
 
@@ -183,10 +184,16 @@
         <!-- MODAL FOR CONTACT -->
        
 
+    </div><!-- Footer -->
 
-        <!-- Bootstrap core JavaScript
+
+    <!-- MODAL FOR CONTACT -->
+
+
+
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster -->
 
 </body>
 
