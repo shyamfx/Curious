@@ -18,7 +18,14 @@
                 </li>
                 <li class="<?= $contact_active_class;?>"><a href="<?= base_url()?>index.php/Home/contact">CONTACT</a>
                 </li>
-                <li><a data-toggle="modal" data-target="#myModal" href="#myModal">LOGIN</a></li>
+                <?php
+                    if($this->session->userdata('isUserLoggedIn')){ ?>
+                     <li class=""><a href="<?= base_url()?>index.php/Home/logout">LOGOUT</a>
+                   <?php }else{ ?>
+                    <li><a data-toggle="modal" data-target="#myModal" href="#myModal">LOGIN</a></li>
+                  <?php  }
+                ?>
+                
             </ul>
         </div>
         <!--/.nav-collapse -->
